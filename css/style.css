@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(64, 51, 45);
+  text-align: center;
+  padding: 26px 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  background: radial-gradient(circle, rgb(252, 252, 251), rgba(253, 253, 253, 0));
+  padding: 20px;
+}
+
+.main-nav li a {
+  color: #1b0704;
+  margin-left: 36px;
+ }
+
+.main-nav li a:hover {
+    color: rgb(231, 79, 8);
+}
+
+.main-visual {
+  text-align: center;
+  margin-top: 15%;
+  color: #1b0704;
+}
+
+.main-visual p {
+    font-size: 1.2rem;
+    margin: 10px 0 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.main-visual .btn{
+    font-size: 1.0rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(65, 16, 1);
+    color: #fff;
+    border-radius: 50px;
+    padding: 20px 50px;
+}
+
+.main-visual .btn:hover {
+    background-color: rgba(86, 29, 2, 0.824);
+    color: #fff;
+}
+
+#top {
+    min-height: 100vh;
+    background-image: url(../img/ogasuta458A7755_TP_V.webp);
+    background-size: cover;
+}
+
+#news {
+    min-height: 270px;
+    margin-bottom: 40px;
+    background-image: url(../img/cafenews.png);
+    background-size: cover;
+}
+
+#news .main-title {
+    text-align: center;
+}
+
+.heading a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b0704;
+    background: radial-gradient(circle, rgb(252, 252, 251), rgba(253, 253, 253, 0));
+    padding: 5px;
+}
+
+.heading a:hover {
+    color: rgb(231, 79, 8);
+}
+
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+article {
+    width: 75%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+aside {
+    width: 23%;
+    margin-right: 5%;
+}
+
+.post {
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+.post-date {
+    background-color: #0090dd;
+    color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top: 15px;
+}
+.post-date span {
+    font-size: 1rem;
+    border-top: 1px #fff solid;
+    padding-top: 3px; 
+}
+
+.post-title {
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.side-title {
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 2px #0090dd solid;
+    padding: 0 8px 8px;
+}
+
+aside p {
+    padding: 15px 10px;
+    margin-bottom: 40px;
+}
+
+.side-article {
+    list-style: none;
+}
+.side-article li {
+    border-bottom: 1px #ddd solid;
+}
+
+.side-article a {
+    color: #1b0704;
+    padding: 15px;
+    display: block;
+}
+
+.side-article a:hover {
+    color: #fff;
+    background-color: #0ba;
+}
+
+#menu {
+    min-height: 270px;
+    margin-bottom: 40px;
+    background-image: url(../img/cafemenu.png);
+    background-size: cover;
+}
+
+#menu .main-title {
+    text-align: center;
+}
+
+.menu-drink {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;    
+}
+
+.menu-drink img {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.drink {
+    width: 25%;
+    margin-right: 20%;
+}
+
+.drink-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: georgia, serif;
+    color: #333;
+    border-bottom: 2px #e6e6e6 solid;
+    padding-bottom: 10px;
+}
+
+.drink-table {
+    width: 100%;
+}
+
+.drink-table td {
+    padding: 10px;
+}
+
+.menu-sweets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.menu-sweets img {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.sweets {
+    width: 25%;
+    margin-left: 20%;
+}
+
+.sweets-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: georgia, serif;
+    color: #333;
+    border-bottom: 2px #e6e6e6 solid;
+    padding-bottom: 10px;
+}
+
+.sweets-table {
+    width: 100%;
+}
+
+.sweets-table td {
+    padding: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .main-title {
+        font-size: 1.5rem;
+        padding: 0 10px;
+
+    }
+    .main-visual p {
+        padding: 10px 10px 20px 10px;
+
+    }
+    .heading {
+        font-size: 1.25rem;
+    }
+    .main-nav {
+        margin-top: 7px;
+    }
+    .main-nav li a {
+        margin-left: 10px;
+    }
+    .main-visual {
+        margin-top: 50%
+    }
+    #top {
+        background-position: center;
+    }
+
+    #news .main-title {
+        margin-top: 40px;
+    }
+    .news-contents {
+        display: block;
+    }
+    article {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .post-title {
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+    .post-date {
+        height: 70px;
+        padding-top: 10px;
+    }
+    aside{
+        width: 90%;
+        margin-left: 3%;
+    }
+    .menu-drink {
+        display: block;
+    }
+    .menu-drink img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .drink {
+        width: 80%;
+        margin-left: 10px;
+    }
+    .menu-sweets {
+        flex-direction: column-reverse;
+    }
+    .menu-sweets img {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    .sweets {
+        width: 80%;
+        margin-right: 10%;
+    }
+}  
